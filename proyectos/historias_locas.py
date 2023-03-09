@@ -8,4 +8,3 @@ verbo2 = input("Verbo2: ")
 
 madlib = f"¡Programar es tan {adj}! Siempre me emociona por que me encanta {verbo1}. ¡Aprende a programar con {verbo2} y alcaza tus metas."
 print(madlib)
-
