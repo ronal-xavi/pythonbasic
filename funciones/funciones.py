@@ -35,7 +35,7 @@ print(" ##### Usode argumentos de plabras clave en Python #####")
 
 def arrival_time(hours=51):
     now = datetime.now()
-    arrival = now + timedelta(hours=hours)
+    arrival = now + timedelta(hours=hours) # timedalta permite hacer una suma de 2 horas
     return arrival.strftime("Arrival: %A %H:%M")
 
 
